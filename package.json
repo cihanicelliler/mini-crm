@@ -1,0 +1,25 @@
+{
+  "name": "mini-crm",
+  "version": "0.1.0",
+  "description": "MiniCRM - Yarım kalmış müşteri ve sipariş yönetim sistemi (senaryo için).",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand",
+    "migrate": "sequelize db:migrate"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "sequelize": "^6.37.0",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "dotenv": "^16.4.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4",
+    "nodemon": "^3.1.0"
+  }
+}
