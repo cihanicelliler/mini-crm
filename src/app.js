@@ -1,7 +1,9 @@
 const express = require('express');
+const swaggerUi = require('swagger-ui-express');
 const { traceIdMiddleware } = require('./middleware/traceId');
 const requestLoggerMiddleware = require('./middleware/requestLogger');
 const logger = require('./lib/logger');
+const swaggerSpec = require('./config/swagger');
 
 const customersRouter = require('./routes/customers');
 const ordersRouter = require('./routes/orders');
@@ -26,6 +28,15 @@ app.use(requestLoggerMiddleware);
 // TODO: Add when ready
 // app.use(cors());
 // app.use(rateLimiter);
+
+// =============================================================================
+// Swagger Documentation
+// =============================================================================
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
+  customCss: '.swagger-ui .topbar { display: none }',
+  customSiteTitle: 'Mini-CRM API Docs'
+}));
 
 // =============================================================================
 // Routes
