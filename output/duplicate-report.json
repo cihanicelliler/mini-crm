@@ -1,0 +1,63 @@
+[
+  {
+    "originalIndex": 1,
+    "duplicateOf": 0,
+    "reasons": [
+      "same_phone"
+    ],
+    "record": {
+      "firstName": "Fatma Nur",
+      "lastName": "Yilmaz",
+      "phone": "+905321234567",
+      "email": null,
+      "address": "Beşiktaş, İstanbul",
+      "isActive": true
+    }
+  },
+  {
+    "originalIndex": 2,
+    "duplicateOf": 0,
+    "reasons": [
+      "same_phone"
+    ],
+    "record": {
+      "firstName": "Mehmet",
+      "lastName": "Demir",
+      "phone": "+905321234567",
+      "email": "mehmet@test.com",
+      "address": null,
+      "isActive": true
+    }
+  },
+  {
+    "originalIndex": 3,
+    "duplicateOf": 0,
+    "reasons": [
+      "same_name",
+      "same_phone"
+    ],
+    "record": {
+      "firstName": "Ahmet",
+      "lastName": "Yılmaz",
+      "phone": "+905321234567",
+      "email": "ahmet.yilmaz@mail.com",
+      "address": "Kadıköy, İstanbul",
+      "isActive": true
+    }
+  },
+  {
+    "originalIndex": 5,
+    "duplicateOf": 0,
+    "reasons": [
+      "same_phone"
+    ],
+    "record": {
+      "firstName": "Emre",
+      "lastName": null,
+      "phone": "+905321234567",
+      "email": "emre@test.com",
+      "address": "Antalya",
+      "isActive": true
+    }
+  }
+]

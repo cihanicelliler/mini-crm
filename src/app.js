@@ -1,10 +1,13 @@
 const express = require('express');
+const swaggerUi = require('swagger-ui-express');
 const { traceIdMiddleware } = require('./middleware/traceId');
 const requestLoggerMiddleware = require('./middleware/requestLogger');
 const logger = require('./lib/logger');
+const swaggerSpec = require('./config/swagger');
 
 const customersRouter = require('./routes/customers');
 const ordersRouter = require('./routes/orders');
+const productsRouter = require('./routes/products');
 
 const app = express();
 
@@ -27,11 +30,21 @@ app.use(requestLoggerMiddleware);
 // app.use(rateLimiter);
 
 // =============================================================================
+// Swagger Documentation
+// =============================================================================
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
+  customCss: '.swagger-ui .topbar { display: none }',
+  customSiteTitle: 'Mini-CRM API Docs'
+}));
+
+// =============================================================================
 // Routes
 // =============================================================================
 
 app.use('/api/customers', customersRouter);
 app.use('/api/orders', ordersRouter);
+app.use('/api/products', productsRouter);
 
 // Health check endpoint
 app.get('/health', (req, res) => {

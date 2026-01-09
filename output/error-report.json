@@ -1,0 +1,28 @@
+[
+  {
+    "originalIndex": 3,
+    "originalData": {
+      "firstName": "Ceren",
+      "lastName": "Kaya",
+      "phone": "5321234567",
+      "email": "ceren@@mail.com",
+      "address": "Ankara"
+    },
+    "errors": [
+      "Invalid email: contains multiple @ symbols"
+    ]
+  },
+  {
+    "originalIndex": 5,
+    "originalData": {
+      "firstName": "Ali'",
+      "lastName": "Öztürk",
+      "phone": "(532) 987 65 43",
+      "email": "ali@example",
+      "address": "İzmir"
+    },
+    "errors": [
+      "Invalid email format"
+    ]
+  }
+]
