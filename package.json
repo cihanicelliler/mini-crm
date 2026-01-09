@@ -7,7 +7,10 @@
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": "jest --runInBand",
-    "migrate": "sequelize db:migrate"
+    "migrate": "sequelize db:migrate",
+    "etl": "node scripts/etl/index.js",
+    "etl:sample": "node scripts/etl/index.js --input=sample-data.json",
+    "etl:dry-run": "node scripts/etl/index.js --dry-run"
   },
   "dependencies": {
     "dotenv": "^16.4.0",

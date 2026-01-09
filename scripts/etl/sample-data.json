@@ -1,0 +1,58 @@
+[
+  {
+    "firstName": "Ahmet",
+    "lastName": "Yılmaz",
+    "phone": "05321234567",
+    "email": "ahmet@mail.com",
+    "address": "Kadıköy, İstanbul"
+  },
+  {
+    "firstName": "Fatma Nur",
+    "lastName": "YILMAZ",
+    "phone": "532 123 45 67",
+    "email": null,
+    "address": "Beşiktaş, İstanbul"
+  },
+  {
+    "firstName": "\"Mehmet\"",
+    "lastName": "Demir",
+    "phone": "+90 532 123 4567",
+    "email": "mehmet@test.com",
+    "address": null
+  },
+  {
+    "firstName": "Ceren",
+    "lastName": "Kaya",
+    "phone": "5321234567",
+    "email": "ceren@@mail.com",
+    "address": "Ankara"
+  },
+  {
+    "firstName": "Ahmet",
+    "lastName": "Yılmaz",
+    "phone": "0532-123-45-67",
+    "email": "ahmet.yilmaz@mail.com",
+    "address": "Kadıköy, İstanbul"
+  },
+  {
+    "firstName": "Ali'",
+    "lastName": "Öztürk",
+    "phone": "(532) 987 65 43",
+    "email": "ali@example",
+    "address": "İzmir"
+  },
+  {
+    "firstName": "  Zeynep  ",
+    "lastName": "ARSLAN",
+    "phone": "05339876543",
+    "email": "zeynep@mail.com",
+    "address": "Bursa"
+  },
+  {
+    "firstName": "Emre",
+    "lastName": "",
+    "phone": "05321234567",
+    "email": "emre@test.com",
+    "address": "Antalya"
+  }
+]

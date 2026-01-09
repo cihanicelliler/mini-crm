@@ -27,3 +27,5 @@ build/
 
 # Test coverage
 coverage/
+docs/github-issues.md
+package-lock.json

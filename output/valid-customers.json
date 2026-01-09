@@ -1,0 +1,18 @@
+[
+  {
+    "firstName": "Ahmet",
+    "lastName": "Yılmaz",
+    "phone": "+905321234567",
+    "email": "ahmet@mail.com",
+    "address": "Kadıköy, İstanbul",
+    "isActive": true
+  },
+  {
+    "firstName": "Zeynep",
+    "lastName": "Arslan",
+    "phone": "+905339876543",
+    "email": "zeynep@mail.com",
+    "address": "Bursa",
+    "isActive": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-01-09T13:53:25.353Z",
+  "input": "sample-data.json",
+  "stats": {
+    "totalInput": 8,
+    "validRecords": 2,
+    "invalidRecords": 2,
+    "duplicateRecords": 4,
+    "recordsWithWarnings": 3
+  }
+}
