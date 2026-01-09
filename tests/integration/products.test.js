@@ -1,6 +1,3 @@
-/**
- * Integration Tests: Products API
- */
 const request = require('supertest');
 const app = require('../../src/app');
 const { sequelize, Product } = require('../../src/models');

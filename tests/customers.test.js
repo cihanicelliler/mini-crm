@@ -15,7 +15,7 @@ describe('Customers API', () => {
 
   // Reset customer table before each test
   beforeEach(async () => {
-    await Customer.destroy({ where: {}, truncate: true });
+    await Customer.destroy({ where: {}, truncate: true, cascade: true });
   });
 
   describe('GET /api/customers', () => {
